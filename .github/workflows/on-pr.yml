@@ -28,7 +28,7 @@ jobs:
     # Skip draft PRs — agents should mark PRs ready when they want pipeline
     # feedback. Avoids wasting CI minutes on work-in-progress.
     if: github.event.pull_request.draft == false
-    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@v1
+    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@625e0385909e97005c37e7dbaf364bb8877775b4
     with:
       event_type: >-
         ${{

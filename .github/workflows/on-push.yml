@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   orchestrate:
-    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@v1
+    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@625e0385909e97005c37e7dbaf364bb8877775b4
     with:
       event_type: push
       source_branch: ${{ github.ref_name }}
