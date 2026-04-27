@@ -15,6 +15,16 @@ on:
       - staging
       - develop
 
+# Permissions granted to the called orchestrator chain. GitHub validates
+# every workflow_call target at load time — even ones gated by `if:` that
+# never run for this event — so the caller must cover the union of all
+# pipeline workflows: pr-lifecycle, promote, and release.
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  pull-requests: write
+
 # One promotion/release run per branch at a time. A second push (e.g. two
 # PRs merging in quick succession) queues rather than cancels — we don't
 # want to drop a release trigger.
@@ -24,7 +34,7 @@ concurrency:
 
 jobs:
   orchestrate:
-    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@v1
+    uses: point-source/swarmflow/.github/workflows/orchestrator.yml@1bf074e63433f80d2a3145155a13d9623584c6e6
     with:
       event_type: push
       source_branch: ${{ github.ref_name }}

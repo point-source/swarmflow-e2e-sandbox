@@ -17,6 +17,16 @@ on:
       - reopened
       - ready_for_review
 
+# Permissions granted to the called orchestrator chain. GitHub validates
+# every workflow_call target at load time — even ones gated by `if:` that
+# never run for this event — so the caller must cover the union of all
+# pipeline workflows: pr-lifecycle, promote, and release.
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  pull-requests: write
+
 # Cancel any in-progress run for the same PR when a new commit arrives.
 # This prevents stale quality checks from blocking an updated PR.
 concurrency:
@@ -28,7 +38,7 @@ jobs:
     # Skip draft PRs — agents should mark PRs ready when they want pipeline
     # feedback. Avoids wasting CI minutes on work-in-progress.
     if: github.event.pull_request.draft == false
-    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@v1
+    uses: point-source/swarmflow/.github/workflows/orchestrator.yml@1bf074e63433f80d2a3145155a13d9623584c6e6
     with:
       event_type: >-
         ${{
