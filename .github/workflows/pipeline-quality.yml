@@ -1,0 +1,19 @@
+name: Quality
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        required: true
+        type: string
+      sha:
+        required: true
+        type: string
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "quality $INPUTS"
+        env:
+          INPUTS: ${{ toJson(inputs) }}

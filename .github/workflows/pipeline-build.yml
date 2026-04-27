@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        required: true
+        type: string
+      environment:
+        required: true
+        type: string
+      changelog:
+        required: true
+        type: string
+      artifact_path:
+        required: false
+        type: string
+        default: dist/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "build $INPUTS"
+        env:
+          INPUTS: ${{ toJson(inputs) }}
