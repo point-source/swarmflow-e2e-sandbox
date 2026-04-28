@@ -1,34 +1,37 @@
 # Entrypoint: push events to managed branches.
 # Fires after a PR is merged (the merge commit lands on the branch).
 # This file is identical across all adopting repos. Copy it as-is.
-#
-# Note: this WILL fire for pushes by the GitHub App bot (which uses an
-# installation token, not GITHUB_TOKEN), enabling the promotion and
-# release chain to continue automatically.
 
 name: Pipeline — Push
-
 on:
   push:
     branches:
       - main
       - staging
       - develop
-
-# One promotion/release run per branch at a time. A second push (e.g. two
-# PRs merging in quick succession) queues rather than cancels — we don't
-# want to drop a release trigger.
+# GitHub validates every workflow_call target eagerly at load time, so the
+# caller must grant the union of permissions across all branches' chains
+# (pr-lifecycle, promote, release). Removing any of these will cause a
+# startup_failure.
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  pull-requests: write
+# One promotion/release run per branch at a time. Don't cancel — losing a
+# release trigger is worse than queueing a few seconds.
 concurrency:
   group: pipeline-push-${{ github.ref_name }}
   cancel-in-progress: false
-
 jobs:
   orchestrate:
-    uses: PointSource/swarmflow/.github/workflows/orchestrator.yml@v1
+    uses: point-source/swarmflow/.github/workflows/orchestrator.yml@d9342ac6b6f87e874905d1489afddb229c57f235
     with:
       event_type: push
       source_branch: ${{ github.ref_name }}
       target_branch: ${{ github.ref_name }}
+      swarmflow_repo: point-source/swarmflow
+      swarmflow_ref: d9342ac6b6f87e874905d1489afddb229c57f235
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
