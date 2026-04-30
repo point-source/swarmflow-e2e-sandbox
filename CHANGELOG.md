@@ -1,3 +1,10 @@
+# [1.0.0-rc.6](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-rc.5...v1.0.0-rc.6) (2026-04-30)
+
+
+### Bug Fixes
+
+* accumulate first commit ([#322](https://github.com/point-source/flywheel-sandbox/issues/322)) ([4cacb46](https://github.com/point-source/flywheel-sandbox/commit/4cacb461565183f84f5e27419f1b292b42eb56cb))
+
 # [1.0.0-rc.5](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2026-04-29)
 
 
