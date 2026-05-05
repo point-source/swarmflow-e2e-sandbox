@@ -1,3 +1,17 @@
+# [1.49.0](https://github.com/point-source/flywheel-sandbox/compare/integration/v1.48.0...integration/v1.49.0) (2026-05-05)
+
+
+### Bug Fixes
+
+* **api:** tighten rate limiter ([#1632](https://github.com/point-source/flywheel-sandbox/issues/1632)) ([ec9dcc4](https://github.com/point-source/flywheel-sandbox/commit/ec9dcc47fd814ad6601b8f1a157b6e9c8465e144))
+* enable auto-merge integration ([#1628](https://github.com/point-source/flywheel-sandbox/issues/1628)) ([ab05c8f](https://github.com/point-source/flywheel-sandbox/commit/ab05c8f6f0814361e7b6c6fd956706b2042d9a9f))
+* integration label test ([#1625](https://github.com/point-source/flywheel-sandbox/issues/1625)) ([696b398](https://github.com/point-source/flywheel-sandbox/commit/696b398dcd09dd59f7ca8726b12d93a667ed6523))
+
+
+### Features
+
+* will be retitled ([#1627](https://github.com/point-source/flywheel-sandbox/issues/1627)) ([308e021](https://github.com/point-source/flywheel-sandbox/commit/308e0215d716dd9dfd1cab879701715a511884dc))
+
 # [1.48.0](https://github.com/point-source/flywheel-sandbox/compare/integration/v1.47.0...integration/v1.48.0) (2026-05-05)
 
 
