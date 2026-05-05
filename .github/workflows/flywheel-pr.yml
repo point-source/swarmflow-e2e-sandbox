@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: point-source/flywheel@1426340caba43be0012093e609b90089332c024d
+      - uses: point-source/flywheel@0e1ba30fb9dd6a876c1cdb98c3ac6c8064660571
         with:
           event: pull_request
           app-id: ${{ vars.FLYWHEEL_GH_APP_ID }}
