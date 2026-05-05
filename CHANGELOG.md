@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/point-source/flywheel-sandbox/compare/customer-acme/v1.0.1...customer-acme/v1.0.2) (2026-05-05)
+
+
+### Bug Fixes
+
+* e2e customer-acme tag isolation ([#1711](https://github.com/point-source/flywheel-sandbox/issues/1711)) ([6caa5b6](https://github.com/point-source/flywheel-sandbox/commit/6caa5b6c016e6f236ac8fa233290ed0a6b8eaa0b))
+
 ## [1.0.1](https://github.com/point-source/flywheel-sandbox/compare/customer-acme/v1.0.0...customer-acme/v1.0.1) (2026-05-05)
 
 
