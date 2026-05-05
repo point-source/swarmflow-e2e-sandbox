@@ -17,11 +17,11 @@ jobs:
           # semantic-release embeds in its push URL, and the workflow's
           # token only has read scope here.
           persist-credentials: false
-      - uses: point-source/flywheel@622a9d6b066fbd0a69fb3a2ae431129921cd53a3
+      - uses: point-source/flywheel@b2a1c210a0e277d1e7a62f6af24c273c103defa2
         id: flywheel
         with:
           event: push
-          app-id: ${{ secrets.FLYWHEEL_GH_APP_ID }}
+          app-id: ${{ vars.FLYWHEEL_GH_APP_ID }}
           app-private-key: ${{ secrets.FLYWHEEL_GH_APP_PRIVATE_KEY }}
       - name: Run semantic-release
         if: steps.flywheel.outputs.managed_branch == 'true'
