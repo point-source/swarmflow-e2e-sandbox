@@ -1,3 +1,18 @@
+# [1.0.0-rc.42](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-rc.41...v1.0.0-rc.42) (2026-05-05)
+
+
+### Bug Fixes
+
+* accumulate first commit ([#1208](https://github.com/point-source/flywheel-sandbox/issues/1208)) ([3fafc49](https://github.com/point-source/flywheel-sandbox/commit/3fafc492536d774bd12b9fd34dee590c3cd920db))
+* accumulate first commit ([#1243](https://github.com/point-source/flywheel-sandbox/issues/1243)) ([a5b489b](https://github.com/point-source/flywheel-sandbox/commit/a5b489b3c764cbe2a56e1894ee944594d620ba1f))
+* accumulate first commit ([#1283](https://github.com/point-source/flywheel-sandbox/issues/1283)) ([c9b89d1](https://github.com/point-source/flywheel-sandbox/commit/c9b89d107475cf79234a09408a21ab490992ea49))
+* accumulate first commit ([#1327](https://github.com/point-source/flywheel-sandbox/issues/1327)) ([7296af3](https://github.com/point-source/flywheel-sandbox/commit/7296af379f94e46628edc783c6c0a2814f03f6ae))
+* accumulate first commit ([#1347](https://github.com/point-source/flywheel-sandbox/issues/1347)) ([8cac46a](https://github.com/point-source/flywheel-sandbox/commit/8cac46a04acc50c0417e5b7cacdac64f86a127b6))
+* accumulate first commit ([#1383](https://github.com/point-source/flywheel-sandbox/issues/1383)) ([c0d04a4](https://github.com/point-source/flywheel-sandbox/commit/c0d04a42c913267e9d332e05b0c5e69e380bbad6))
+* accumulate first commit ([#1401](https://github.com/point-source/flywheel-sandbox/issues/1401)) ([43722ae](https://github.com/point-source/flywheel-sandbox/commit/43722ae0d4065c9a13378a35e3123c492c7d5209))
+* accumulate first commit ([#1423](https://github.com/point-source/flywheel-sandbox/issues/1423)) ([c3ed743](https://github.com/point-source/flywheel-sandbox/commit/c3ed7436666273159a65b7eacbba204a67966114))
+* accumulate first commit ([#1495](https://github.com/point-source/flywheel-sandbox/issues/1495)) ([50dd9a6](https://github.com/point-source/flywheel-sandbox/commit/50dd9a61e8083cfed2b65dab4e9a53fd8491c367))
+
 # [1.0.0-rc.41](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-rc.40...v1.0.0-rc.41) (2026-05-05)
 
 
