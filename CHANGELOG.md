@@ -1,3 +1,18 @@
+# [1.0.0-dev.42](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-dev.41...v1.0.0-dev.42) (2026-05-05)
+
+
+### Bug Fixes
+
+* e2e promotion seed ([#1225](https://github.com/point-source/flywheel-sandbox/issues/1225)) ([50d0529](https://github.com/point-source/flywheel-sandbox/commit/50d05296cfd85ea75254232ffd443686f8dc1310))
+* e2e promotion seed ([#1257](https://github.com/point-source/flywheel-sandbox/issues/1257)) ([fa59d45](https://github.com/point-source/flywheel-sandbox/commit/fa59d45a749a44f0310007725ee85002bcee14b8))
+* e2e promotion seed ([#1297](https://github.com/point-source/flywheel-sandbox/issues/1297)) ([2a5be9f](https://github.com/point-source/flywheel-sandbox/commit/2a5be9f9137d52028f10aa62cd8da8f93db28421))
+* e2e promotion seed ([#1329](https://github.com/point-source/flywheel-sandbox/issues/1329)) ([5f42214](https://github.com/point-source/flywheel-sandbox/commit/5f422147db9c937f6376afe10527b59a610157cb))
+* e2e promotion seed ([#1377](https://github.com/point-source/flywheel-sandbox/issues/1377)) ([8350635](https://github.com/point-source/flywheel-sandbox/commit/83506350e6209bae633c62cf636590ff8fcee950))
+* e2e promotion seed ([#1385](https://github.com/point-source/flywheel-sandbox/issues/1385)) ([f26461d](https://github.com/point-source/flywheel-sandbox/commit/f26461da7b3abca5005a518e5c3860037bf2763f))
+* e2e promotion seed ([#1414](https://github.com/point-source/flywheel-sandbox/issues/1414)) ([5f1c4eb](https://github.com/point-source/flywheel-sandbox/commit/5f1c4eb97e9693ececab915ffb5af39d42568308))
+* e2e promotion seed ([#1425](https://github.com/point-source/flywheel-sandbox/issues/1425)) ([cc3425d](https://github.com/point-source/flywheel-sandbox/commit/cc3425de71d121292297602525266c0ef012e76f))
+* e2e promotion seed ([#1508](https://github.com/point-source/flywheel-sandbox/issues/1508)) ([e218f4b](https://github.com/point-source/flywheel-sandbox/commit/e218f4b3b97c75035e0e86398afe4bc187384e58))
+
 # [1.0.0-dev.41](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-dev.40...v1.0.0-dev.41) (2026-05-05)
 
 
