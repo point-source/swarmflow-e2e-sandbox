@@ -1,3 +1,10 @@
+# [1.0.0-dev.50](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-dev.49...v1.0.0-dev.50) (2026-05-05)
+
+
+### Bug Fixes
+
+* e2e promotion seed ([#1645](https://github.com/point-source/flywheel-sandbox/issues/1645)) ([2ddeea9](https://github.com/point-source/flywheel-sandbox/commit/2ddeea9b334e9e22af7fbb3abc313302b7bcfd42))
+
 # [1.0.0-dev.49](https://github.com/point-source/flywheel-sandbox/compare/v1.0.0-dev.48...v1.0.0-dev.49) (2026-05-05)
 
 
