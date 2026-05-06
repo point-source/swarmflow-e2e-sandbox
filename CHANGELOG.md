@@ -1,3 +1,30 @@
+# [1.80.0](https://github.com/point-source/flywheel-sandbox/compare/integration/v1.79.0...integration/v1.80.0) (2026-05-06)
+
+
+### Bug Fixes
+
+* **api:** tighten rate limiter ([#2168](https://github.com/point-source/flywheel-sandbox/issues/2168)) ([8a1f483](https://github.com/point-source/flywheel-sandbox/commit/8a1f4830415b0afa7214fa453834fa12d33f4cd4))
+* **api:** tighten rate limiter ([#2178](https://github.com/point-source/flywheel-sandbox/issues/2178)) ([2b44eda](https://github.com/point-source/flywheel-sandbox/commit/2b44edae89c29120c66d2f2b79e69bcdb5ed2b96))
+* **api:** tighten rate limiter ([#2191](https://github.com/point-source/flywheel-sandbox/issues/2191)) ([a7f345c](https://github.com/point-source/flywheel-sandbox/commit/a7f345cc579c7af3808b33558e6968a5d4bee3f7))
+* **api:** tighten rate limiter ([#2198](https://github.com/point-source/flywheel-sandbox/issues/2198)) ([9ddd811](https://github.com/point-source/flywheel-sandbox/commit/9ddd811c214659d3186eccdb2d3f049822548391))
+* enable auto-merge integration ([#2165](https://github.com/point-source/flywheel-sandbox/issues/2165)) ([12f88ab](https://github.com/point-source/flywheel-sandbox/commit/12f88ab1438fccca5333eee93fa728a3531117fc))
+* enable auto-merge integration ([#2174](https://github.com/point-source/flywheel-sandbox/issues/2174)) ([d124d17](https://github.com/point-source/flywheel-sandbox/commit/d124d1712d3705b280c08216bc3b20f6672ed066))
+* enable auto-merge integration ([#2188](https://github.com/point-source/flywheel-sandbox/issues/2188)) ([95c3b61](https://github.com/point-source/flywheel-sandbox/commit/95c3b6144b127ae8b4de1765cf92281ffa7891d8))
+* enable auto-merge integration ([#2195](https://github.com/point-source/flywheel-sandbox/issues/2195)) ([7c4fbb3](https://github.com/point-source/flywheel-sandbox/commit/7c4fbb355bdb8e90608be2bb018af7119f2bcece))
+* integration label test ([#2162](https://github.com/point-source/flywheel-sandbox/issues/2162)) ([86bdfcb](https://github.com/point-source/flywheel-sandbox/commit/86bdfcbf9d23a360f3c52bffffaa87c5d7acebb3))
+* integration label test ([#2169](https://github.com/point-source/flywheel-sandbox/issues/2169)) ([0704094](https://github.com/point-source/flywheel-sandbox/commit/07040944102dadda4b02f5d0640148a56bc78843))
+* integration label test ([#2184](https://github.com/point-source/flywheel-sandbox/issues/2184)) ([b97576a](https://github.com/point-source/flywheel-sandbox/commit/b97576a24baba4d736fb46a8806fc5b60b7d9783))
+* integration label test ([#2192](https://github.com/point-source/flywheel-sandbox/issues/2192)) ([77fa135](https://github.com/point-source/flywheel-sandbox/commit/77fa1353cfaf88543597e687975c377375ac7867))
+* integration promote first ([#2159](https://github.com/point-source/flywheel-sandbox/issues/2159)) ([97ba216](https://github.com/point-source/flywheel-sandbox/commit/97ba216f478e793324b59da5e23623f0f2a263c3))
+
+
+### Features
+
+* will be retitled ([#2164](https://github.com/point-source/flywheel-sandbox/issues/2164)) ([c0c1863](https://github.com/point-source/flywheel-sandbox/commit/c0c1863bcd8e436ea91ef5a7d4807aa184d55514))
+* will be retitled ([#2172](https://github.com/point-source/flywheel-sandbox/issues/2172)) ([adb37e1](https://github.com/point-source/flywheel-sandbox/commit/adb37e16d1222ecab0e2c87d8d5ef7728f10621e))
+* will be retitled ([#2187](https://github.com/point-source/flywheel-sandbox/issues/2187)) ([8dd8217](https://github.com/point-source/flywheel-sandbox/commit/8dd8217a6eec1dddd90417e90f522a1f2b7021e9))
+* will be retitled ([#2194](https://github.com/point-source/flywheel-sandbox/issues/2194)) ([d2ef28f](https://github.com/point-source/flywheel-sandbox/commit/d2ef28fe6338afc8671155d7270dcfba695be6f3))
+
 # [1.79.0](https://github.com/point-source/flywheel-sandbox/compare/integration/v1.78.0...integration/v1.79.0) (2026-05-06)
 
 
