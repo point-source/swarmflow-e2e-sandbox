@@ -17,7 +17,7 @@ jobs:
           # semantic-release embeds in its push URL, and the workflow's
           # token only has read scope here.
           persist-credentials: false
-      - uses: point-source/flywheel@92d39e6ba815850a740f9ff8b6bfc6a0789095b3
+      - uses: point-source/flywheel@61e501d8be21cb15f6fa7d54aa3144f8ef508a69
         id: flywheel
         with:
           event: push
@@ -30,12 +30,12 @@ jobs:
         run: |
           npx --yes \
             -p semantic-release@24 \
-            -p @semantic-release/commit-analyzer \
-            -p @semantic-release/release-notes-generator \
-            -p @semantic-release/changelog \
-            -p @semantic-release/exec \
-            -p @semantic-release/git \
-            -p @semantic-release/github \
+            -p @semantic-release/commit-analyzer@13 \
+            -p @semantic-release/release-notes-generator@14 \
+            -p @semantic-release/changelog@6 \
+            -p @semantic-release/exec@7 \
+            -p @semantic-release/git@10 \
+            -p @semantic-release/github@11 \
             semantic-release
         env:
           GITHUB_TOKEN: ${{ steps.flywheel.outputs.token }}
