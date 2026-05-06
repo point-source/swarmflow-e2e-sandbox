@@ -17,7 +17,7 @@ jobs:
           # semantic-release embeds in its push URL, and the workflow's
           # token only has read scope here.
           persist-credentials: false
-      - uses: point-source/flywheel@a4ef65d6e6235e9944aed6a218f33fece51e9293
+      - uses: point-source/flywheel@9e0fb3b5c17d74d474c9614b77d90f2f8a9d3605
         id: flywheel
         with:
           event: push
@@ -101,9 +101,9 @@ jobs:
                 if git diff --cached --quiet; then
                   echo "$upstream already in sync with $RELEASED_BRANCH for release-managed paths."
                 else
-                  git commit -m "ci(flywheel): back-merge $new_tag from $RELEASED_BRANCH into $upstream
-
-Flywheel-Back-Merge: $new_tag"
+                  git commit \
+                    -m "ci(flywheel): back-merge $new_tag from $RELEASED_BRANCH into $upstream" \
+                    -m "Flywheel-Back-Merge: $new_tag"
                 fi
                 ;;
               *)
