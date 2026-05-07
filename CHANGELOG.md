@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/point-source/flywheel-sandbox/compare/integration/v1.3.0...integration/v1.4.0) (2026-05-07)
+
+
+### Bug Fixes
+
+* integration label test ([#2509](https://github.com/point-source/flywheel-sandbox/issues/2509)) ([3014dd6](https://github.com/point-source/flywheel-sandbox/commit/3014dd6030b2134764a7de4551052b9a96703b5d))
+
+
+### Features
+
+* will be retitled ([#2511](https://github.com/point-source/flywheel-sandbox/issues/2511)) ([da5268a](https://github.com/point-source/flywheel-sandbox/commit/da5268ae54ce14333d986ba416dd03506ed18263))
+
 # [1.3.0](https://github.com/point-source/flywheel-sandbox/compare/integration/v1.2.0...integration/v1.3.0) (2026-05-07)
 
 
